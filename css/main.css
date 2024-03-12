@@ -53,3 +53,25 @@ body {
     height: 40px;
     background-color: white;
 }
+#startButton, #pauseButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: -350px;
+    margin-right: 250px;
+    margin-bottom: 400px;
+
+
+}
+
+#startButton:hover, #pauseButton:hover {
+    background-color: #45a049; /* Verde más oscuro */
+}
+
+#pauseButton {
+    display: none; /* Inicialmente oculto */
+}
