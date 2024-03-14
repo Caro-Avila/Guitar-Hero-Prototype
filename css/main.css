@@ -1,12 +1,19 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: flex-end;
     height: 100vh;
     overflow: hidden; /* Evita el desplazamiento de la pantalla */
+}
+.contenedor {
+    width: 275px; /* Ancho del contenedor */
+    height: 100%; /* Altura del contenedor */
+    position: absolute; /* Posición absoluta para asegurar la visibilidad */
+    top: 0px; /* Posición desde la parte superior */
+    left: 630px; /* Posición desde la izquierda */
 }
 
 .circulo {
@@ -52,6 +59,7 @@ body {
     width: 90px;
     height: 40px;
     background-color: white;
+    border-radius: 10px;
 }
 #startButton, #pauseButton {
     padding: 10px 20px;
@@ -74,4 +82,10 @@ body {
 
 #pauseButton {
     display: none; /* Inicialmente oculto */
+}
+.nota {
+    width: 50px;
+    height: 50px;
+    background-color: blue; /* Color de fondo de los cuadrados */
+    position: absolute; /* Para posicionar los cuadrados dentro del contenedor */
 }
